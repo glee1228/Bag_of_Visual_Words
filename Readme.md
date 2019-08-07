@@ -25,3 +25,14 @@ using keras.datasets load functions
 3. Image representation(making the histogram of features) : Vector Quantization 
 
 4. classifier learning and recognition : SVM Classifier
+
+### Referenced Code 
+
+BoW :https://github.com/CyrusChiu/Image-recognition
+
+K-Means Clustering using GPU : https://github.com/ilyaraz/pytorch_kmeans
+
+Multi-class Linear SVM using GPU : https://github.com/HaotianMXu/Multiclass_LinearSVM_with_SGD/blob/master/linearSVM.py
+
+
+Porting by glee1228@naver.com
