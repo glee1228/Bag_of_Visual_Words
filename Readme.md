@@ -28,7 +28,7 @@ using keras.datasets load functions
 
 ### Referenced Code 
 
-BoW :https://github.com/CyrusChiu/Image-recognition
+BoW Process:https://github.com/CyrusChiu/Image-recognition
 
 K-Means Clustering using GPU : https://github.com/ilyaraz/pytorch_kmeans
 
