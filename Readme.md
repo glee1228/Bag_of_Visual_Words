@@ -32,7 +32,7 @@ BoW Process:https://github.com/CyrusChiu/Image-recognition
 
 K-Means Clustering using GPU : https://github.com/ilyaraz/pytorch_kmeans
 
-Multi-class Linear SVM using GPU : https://github.com/HaotianMXu/Multiclass_LinearSVM_with_SGD/blob/master/linearSVM.py
+Multi-class Linear SVM using GPU : https://github.com/murtazajafferji/svm-gpu
 
 
 Porting by glee1228@naver.com
