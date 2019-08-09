@@ -1,32 +1,37 @@
-# Bag of Visual Words Image Classifier
+# Bag of Visual Words Image Classifier Using GPU
+### : Visual Categorization with Bags of Keypoints
+
+### [Paper](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/csurka-eccv-04.pdf)
 
 Implementation of a content based image classifier using the [bag of visual words model](https://en.wikipedia.org/wiki/Bag-of-words_model_in_computer_vision) in Python.
 
-colab link : https://colab.research.google.com/drive/1_URYuLjPFqQGQ_-bWpwYIAV1NdV9rPl6
+## Usage
 
-**Google Drive Link**
+Google Colab link : https://colab.research.google.com/drive/1_URYuLjPFqQGQ_-bWpwYIAV1NdV9rPl6
 
-for Download .pkl files
+**Google Drive Link** for Download .pkl files
 
-**Prepare Cigar-10 Dataset**
 
-using keras.datasets load functions
+## Train & Test
 
-**Opencv Downgrade** 
+**Click** Google Colab Link -> Runtime type change (GPU) -> Variable **run_all_process = True** -> Run all
 
-3.4.3 version can not be used because of patents on SIFT
 
-**Bag of Features Process** 
+## Process
 
-1. feature extraction : SIFT descriptors 
+```
+1. Prepare Dataset : Caltech-101 Dataset
 
-2. clustering and build codebook : k-means algorithm 
+2. feature extraction : SIFT descriptors - Opencv Version(3.4.2.16) Downgrade for SIFT Features
 
-3. Image representation(making the histogram of features) : Vector Quantization 
+3. clustering and build codebook : K-means clustering algorithm 
 
-4. classifier learning and recognition : SVM Classifier
+4. Image representation(making the histogram of features) : Vector Quantization 
 
-### Referenced Code 
+5. classifier learning and recognition : SVM Classifier
+```
+
+## Referenced Code 
 
 BoW Process:https://github.com/CyrusChiu/Image-recognition
 
