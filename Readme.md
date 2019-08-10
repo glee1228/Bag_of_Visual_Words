@@ -1,4 +1,4 @@
-# Bag of Visual Words Image Classifier Using GPU
+# Bag of Visual Words Image Classifier
 ### : Visual Categorization with Bags of Keypoints
 
 ### [Paper](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/csurka-eccv-04.pdf)
