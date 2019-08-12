@@ -5,6 +5,17 @@
 
 Implementation of a content based image classifier using the [bag of visual words model](https://en.wikipedia.org/wiki/Bag-of-words_model_in_computer_vision) in Python.
 
+
+## Paper Result
+![](https://github.com/glee1228/TIL_AI/blob/master/Image/Phow1.png)
+
+## Our Result(best)
+Weak Features, M = 2500, Single, Level 0 (1x1),Linear SVM(C=100.0)
+31%
+
+Strong Feature, M = 600, Single, Level 0 (1x1),Linear SVM(C=200.0 and 250.0)
+40%
+
 ## Usage
 
 Google Colab link : https://colab.research.google.com/drive/1_URYuLjPFqQGQ_-bWpwYIAV1NdV9rPl6
