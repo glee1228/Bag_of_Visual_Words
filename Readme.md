@@ -11,10 +11,12 @@ Implementation of a content based image classifier using the [bag of visual word
 
 ## Our Result(best)
 Weak Features, M = 2500, Single, Level 0 (1x1),Linear SVM(C=100.0)
-31%
+
+### 31%
 
 Strong Feature, M = 600, Single, Level 0 (1x1),Linear SVM(C=200.0 and 250.0)
-40%
+
+### 40%
 
 ## Usage
 
