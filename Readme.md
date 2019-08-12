@@ -1,9 +1,11 @@
 # Bag of Visual Words Image Classifier
-### : Visual Categorization with Bags of Keypoints
-
-### [Paper](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/csurka-eccv-04.pdf)
+### Visual Categorization with Bags of Keypoints
+### Beyond Bags of Features: Spatial Pyramid Matching for Recognizing Natural Scene Categories 
+### [[Paper 1 ]](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/csurka-eccv-04.pdf) [[Paper 2 ]](http://mplab.ucsd.edu/~marni/Igert/Lazebnik_06.pdf)
 
 Implementation of a content based image classifier using the [bag of visual words model](https://en.wikipedia.org/wiki/Bag-of-words_model_in_computer_vision) in Python.
+
+
 
 
 ## Paper Result
